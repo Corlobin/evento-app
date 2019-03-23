@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/coordinator_layout"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/registerAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/simp_sio"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/symposium" />
+
+    <Button
+        android:id="@+id/btn_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="215dp"
+        android:text="Request JSON Object From URL" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignTop="@+id/registerAction"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="210dp" />
+
+
+</RelativeLayout>
