@@ -1,0 +1,26 @@
+{
+  "palestras":[
+    {
+      "data":"2019-04-13",
+      "hora":"08:00-09:00AM",
+      "informacao":"Recebimento de material"
+    },
+    {
+      "data":"2019-04-14",
+      "hora":"09:00-09:15AM",
+      "informacao":"Cerimônia de abertura"
+    },
+    {
+      "data":"2019-04-15",
+      "hora":"09:15-10:15AM",
+      "informacao":"Apresentação",
+      "professores":[
+        {
+          "nome":"Ricardo",
+          "titulacao":"Dr",
+          "tema":"Tema"
+        }
+      ]
+    }
+  ]
+}

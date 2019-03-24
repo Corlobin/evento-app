@@ -40,4 +40,12 @@ public class Palestra implements Serializable {
     public String getInformacao() {
         return informacao;
     }
+
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(String.format("[%s - %s] %s", data, hora, informacao));
+        return stringBuilder.toString();
+    }
 }
