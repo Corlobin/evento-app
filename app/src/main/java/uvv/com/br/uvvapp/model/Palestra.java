@@ -41,11 +41,9 @@ public class Palestra implements Serializable {
         return informacao;
     }
 
-
-    @Override
-    public String toString() {
+    public String toHtml() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(String.format("[%s - %s] %s", data, hora, informacao));
+        stringBuilder.append(String.format("<b>(%s)</b> - %s", hora, informacao));
         return stringBuilder.toString();
     }
 }

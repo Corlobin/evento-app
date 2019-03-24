@@ -3,16 +3,20 @@ package uvv.com.br.uvvapp;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ListView;
+import android.widget.ExpandableListView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
+import java.util.HashMap;
+import java.util.List;
+
 import uvv.com.br.uvvapp.handle.ListViewClickHandler;
 import uvv.com.br.uvvapp.integration.ErrorHandler;
 import uvv.com.br.uvvapp.integration.EventIntegration;
+import uvv.com.br.uvvapp.model.Palestra;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -20,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
     private Context mContext;
     private String mJSONURLString = "https://raw.githubusercontent.com/Corlobin/evento-app/master/dados.json";
 
-    public ListView listView;
+    public ExpandableListView listView;
+    public List<String> datas;
+    public HashMap<String, List<Palestra>> dados;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mContext = getApplicationContext();
-        listView = findViewById(R.id.listView);
+        listView = findViewById(R.id.expandableListView);
 
-        // Set handles to list view click
+        // Acrescentando ações
         ListViewClickHandler listViewClickHandler = new ListViewClickHandler(this);
-        listView.setOnItemClickListener(listViewClickHandler);
+        listView.setOnChildClickListener(listViewClickHandler);
 
         // Initialize a new RequestQueue instance
         RequestQueue requestQueue = Volley.newRequestQueue(mContext);
@@ -49,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
 
         requestQueue.add(jsonObjectRequest);
     }
-
 
 
 }

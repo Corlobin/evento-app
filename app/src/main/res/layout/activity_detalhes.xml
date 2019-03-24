@@ -7,9 +7,7 @@
     tools:context=".DetailActivity">
 
     <include
-        layout="@layout/activity_header"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        layout="@layout/activity_header"/>
 
     <TextView
         android:id="@+id/editText2"
@@ -42,32 +40,49 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="3dp"
-        android:layout_marginTop="392dp"
+        android:layout_marginTop="388dp"
         android:ems="10"
         android:text="@string/afilia_o"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
-        android:id="@+id/editText6"
-        android:layout_width="176dp"
+        android:id="@+id/temaPalestrante"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="108dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:text="@string/tema"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="225dp"
         android:ems="10"
+        android:gravity="center"
+        android:background="@color/colorGreen"
         android:text="@string/informa_es_gerais"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <TextView
         android:id="@+id/editText7"
-        android:layout_width="214dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="94dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="332dp"
         android:ems="10"
+        android:gravity="center"
+        android:background="@color/colorGreen"
+
         android:text="@string/dados_do_apresentador"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
@@ -93,6 +108,65 @@
         android:layout_marginTop="306dp"
         android:ems="10"
         android:text="@string/detalhe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/dataPalestra"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="0dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/horario"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="86dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/detalhe"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/horario"
+        android:layout_alignTop="@+id/editText4"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/horario"
+        android:layout_alignTop="@+id/editText8"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/afiliacao"
+        android:layout_width="282dp"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/horario"
+        android:layout_alignTop="@+id/editText9"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/tema"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText9"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/editText3"
+        android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </RelativeLayout>
