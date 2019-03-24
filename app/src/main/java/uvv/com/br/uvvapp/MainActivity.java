@@ -10,6 +10,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
+import uvv.com.br.uvvapp.handle.ListViewClickHandler;
 import uvv.com.br.uvvapp.integration.ErrorHandler;
 import uvv.com.br.uvvapp.integration.EventIntegration;
 
@@ -17,7 +18,7 @@ import uvv.com.br.uvvapp.integration.EventIntegration;
 public class MainActivity extends AppCompatActivity {
 
     private Context mContext;
-    private String mJSONURLString = "https://gist.githubusercontent.com/Corlobin/a859796fe711c82eb088cd29e27f0420/raw/dd73b50f012e7e639b721eae22c507114f97da42/dados.json";
+    private String mJSONURLString = "https://raw.githubusercontent.com/Corlobin/evento-app/master/dados.json";
 
     public ListView listView;
 
@@ -28,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
         mContext = getApplicationContext();
         listView = findViewById(R.id.listView);
+
+        // Set handles to list view click
+        ListViewClickHandler listViewClickHandler = new ListViewClickHandler(this);
+        listView.setOnItemClickListener(listViewClickHandler);
 
         // Initialize a new RequestQueue instance
         RequestQueue requestQueue = Volley.newRequestQueue(mContext);
@@ -44,5 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         requestQueue.add(jsonObjectRequest);
     }
+
+
 
 }

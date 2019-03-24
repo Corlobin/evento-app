@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">uvvapp</string>
     <string name="simp_sio">Simpósio</string>
+    <string name="data_da_palestra">Data da palestra:</string>
+    <string name="nome">Nome:</string>
+    <string name="afilia_o">Afiliação:</string>
+    <string name="informa_es_gerais">Informações gerais</string>
+    <string name="dados_do_apresentador">Dados do apresentador</string>
+    <string name="hor_rio">Horário:</string>
+    <string name="detalhe">Detalhe:</string>
 </resources>
