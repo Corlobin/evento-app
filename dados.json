@@ -1,24 +1,53 @@
 {
   "palestras":[
     {
-      "data":"2019-04-13",
+      "data":"15/07/2019",
       "hora":"08:00-09:00AM",
       "informacao":"Recebimento de material"
     },
     {
-      "data":"2019-04-14",
+      "data":"15/07/2019",
       "hora":"09:00-09:15AM",
       "informacao":"Cerimônia de abertura"
     },
     {
-      "data":"2019-04-15",
+      "data":"15/07/2019",
       "hora":"09:15-10:15AM",
-      "informacao":"Apresentação",
+      "informacao":"Seminário de abertura",
       "professores":[
         {
-          "nome":"Ricardo",
-          "titulacao":"Dr",
-          "tema":"Tema"
+          "nome":"Dr. Eduardo Colombari",
+          "titulacao":"Professor, Araraquara, SP",
+          "tema":"Controle central da função cardiovascular"
+        }
+      ]
+    },
+    {
+      "data":"15/07/2019",
+      "hora":"10:15-10:30AM",
+      "informacao":"Intervalo"
+    },
+    {
+      "data":"15/07/2019",
+      "hora":"10:30-11:30AM",
+      "informacao":"Apresentação de artigo",
+      "professores":[
+        {
+          "nome":"Dra. Nazaré Bissoli",
+          "titulacao":"Professora, UFES, Vitória, ES",
+          "tema":"Terapia de reposição hormonal e impacto cardiovascular"
+        }
+      ]
+    },
+    {
+      "data":"16/07/2019",
+      "hora":"09:00-10:00AM",
+      "informacao":"Apresentação de artigo",
+      "professores":[
+        {
+          "nome":"Dra. Vinicia Binacardi",
+          "titulacao":"Professora, AU, AL",
+          "tema":"Neuroinflammation: the role of the innate immune system in hypertension"
         }
       ]
     }

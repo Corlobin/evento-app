@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">uvvapp</string>
+    <string name="app_name">Symposium Cardiovascular</string>
     <string name="simp_sio">Simpósio</string>
     <string name="data_da_palestra">Data da palestra:</string>
     <string name="nome">Nome:</string>
@@ -8,4 +8,5 @@
     <string name="dados_do_apresentador">Dados do apresentador</string>
     <string name="hor_rio">Horário:</string>
     <string name="detalhe">Detalhe:</string>
+    <string name="tema">Tema:</string>
 </resources>

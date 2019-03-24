@@ -8,14 +8,16 @@
 
     <include layout="@layout/activity_header"/>
 
-    <ListView
-        android:id="@+id/listView"
+    <ExpandableListView
+        android:id="@+id/expandableListView"
         android:layout_width="match_parent"
         android:layout_height="328dp"
-        android:layout_alignTop="@+id/registerAction"
         android:layout_alignParentStart="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="239dp" />
+        android:layout_marginTop="239dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"/>
 
 
 </RelativeLayout>

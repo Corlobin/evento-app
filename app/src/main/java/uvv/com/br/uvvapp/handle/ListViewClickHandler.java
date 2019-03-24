@@ -2,29 +2,33 @@ package uvv.com.br.uvvapp.handle;
 
 import android.content.Intent;
 import android.view.View;
-import android.widget.AdapterView;
+import android.widget.ExpandableListView;
+import android.widget.Toast;
 
 import uvv.com.br.uvvapp.DetailActivity;
 import uvv.com.br.uvvapp.MainActivity;
 import uvv.com.br.uvvapp.model.Palestra;
 
-import static android.support.v4.content.ContextCompat.startActivity;
-
-public class ListViewClickHandler implements AdapterView.OnItemClickListener {
+public class ListViewClickHandler implements ExpandableListView.OnChildClickListener {
 
     private MainActivity mainActivity;
 
-    public ListViewClickHandler (MainActivity mainActivity) {
+    public ListViewClickHandler(MainActivity mainActivity) {
         this.mainActivity = mainActivity;
     }
 
     @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Palestra palestra = (Palestra) mainActivity.listView.getItemAtPosition(position);
+    public boolean onChildClick(ExpandableListView parent, View v,
+                                int groupPosition, int childPosition, long id) {
+
+        Palestra palestra = mainActivity.dados.get(
+                mainActivity.datas.get(groupPosition)).get(
+                childPosition);
         System.out.println(palestra);
 
         Intent intent = new Intent(mainActivity, DetailActivity.class);
         intent.putExtra("ListViewClickedValue", palestra);
         mainActivity.startActivity(intent);
+        return false;
     }
 }

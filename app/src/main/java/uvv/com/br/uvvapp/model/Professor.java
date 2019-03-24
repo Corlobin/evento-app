@@ -4,15 +4,16 @@ import java.io.Serializable;
 
 public class Professor implements Serializable {
 
-    public Professor(String nome, String titulacao, String tema){
+    public Professor(String nome, String titulacao, String tema) {
         this.nome = nome;
         this.titulacao = titulacao;
         this.tema = tema;
     }
 
-    public Professor(){
+    public Professor() {
 
     }
+
     private String nome;
     private String titulacao;
     private String tema;
