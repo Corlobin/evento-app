@@ -10,4 +10,7 @@
     <string name="detalhe">Detalhe:</string>
     <string name="tema">Tema:</string>
     <string name="desenvolvido">Desenvolvido por Antonio R. A. Brasil (anribrasil@gmail.com)</string>
+    <string name="confirmarinscricao">Insira seus dados para confirmar a sua inscrição</string>
+    <string name="nomepessoa">Nome</string>
+    <string name="afiliacao">Afiliação</string>
 </resources>

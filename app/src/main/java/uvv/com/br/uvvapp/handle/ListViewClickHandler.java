@@ -3,7 +3,6 @@ package uvv.com.br.uvvapp.handle;
 import android.content.Intent;
 import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 
 import uvv.com.br.uvvapp.DetailActivity;
 import uvv.com.br.uvvapp.MainActivity;

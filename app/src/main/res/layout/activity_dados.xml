@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/dados_layout"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarActivity">
+
+    <include
+        layout="@layout/activity_header"/>
+
+    <TextView
+        android:id="@+id/lbInscricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="217dp"
+        android:gravity="center"
+        android:background="@color/colorGreen"
+        android:text="@string/confirmarinscricao"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+
+
+    <include layout="@layout/activity_footer"/>
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbInscricao"
+        android:layout_marginTop="20dp"
+        android:text="@string/nomepessoa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lbAfiliacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome"
+        android:layout_marginTop="25dp"
+        android:text="@string/afiliacao"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbInscricao"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:maxLength="100"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/afiliacao"
+        android:layout_width="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_below="@+id/etNome"
+        android:layout_marginLeft="100dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/afiliacao"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Confirmar" />
+
+        <Button
+            android:id="@+id/btCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btConfirmar"
+            android:text="Cancelar" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
