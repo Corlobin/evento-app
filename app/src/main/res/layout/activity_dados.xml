@@ -19,7 +19,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="217dp"
         android:gravity="center"
-        android:background="@color/colorGreen"
+        android:background="@color/colorBlue"
+        android:textColor="#FFF"
         android:text="@string/confirmarinscricao"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -77,12 +78,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="#FFF"
             android:text="Confirmar" />
 
         <Button
             android:id="@+id/btCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorBlue"
+            android:textColor="#FFF"
             android:layout_toRightOf="@id/btConfirmar"
             android:text="Cancelar" />
     </RelativeLayout>

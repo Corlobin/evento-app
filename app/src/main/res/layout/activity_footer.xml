@@ -6,7 +6,7 @@
     tools:context=".MainActivity"
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
-    android:background="@color/colorGreen"
+    android:background="@color/colorBlue"
     android:gravity="center">
 
     <TextView
