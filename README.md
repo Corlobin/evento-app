@@ -1,3 +1,6 @@
+# Simpósio
+![Simpósio](https://raw.githubusercontent.com/Corlobin/evento-app/master/app/src/main/res/drawable/symposium.jpg)
+
 # Sobre
 
 Repositório para o APP de eventos que será disponibilizado no simpósio da UVV.
