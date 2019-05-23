@@ -17,7 +17,7 @@
       "professores":[
         {
           "nome":"Dr. Eduardo Colombari",
-          "titulacao":"Professor, Araraquara, SP",
+          "titulacao":"Professor, UNESP, Araraquara, SP",
           "tema":"Controle central da função cardiovascular"
         }
       ]
@@ -25,31 +25,138 @@
     {
       "data":"15/07/2019",
       "hora":"10:15-10:30AM",
-      "informacao":"Intervalo"
+      "informacao":"Coffeebreak"
     },
     {
       "data":"15/07/2019",
       "hora":"10:30-11:30AM",
-      "informacao":"Apresentação de artigo",
+      "informacao":"Apresentação de trabalho",
       "professores":[
         {
-          "nome":"Dra. Nazaré Bissoli",
-          "titulacao":"Professora, UFES, Vitória, ES",
-          "tema":"Terapia de reposição hormonal e impacto cardiovascular"
+          "nome":"Dra. Sandra Amaral",
+          "titulacao":"Professora, UNESP, Bauru, SP",
+          "tema":"Benefícios e Prescrição do exercício físico para hipertenso: entendendo os mecanismos."
         }
       ]
     },
     {
-      "data":"16/07/2019",
-      "hora":"09:00-10:00AM",
-      "informacao":"Apresentação de artigo",
+      "data":"15/07/2019",
+      "hora":"11:30-13:30PM",
+      "informacao":"Intervalo para almoço"
+    },    
+    {
+      "data":"15/07/2019",
+      "hora":"13:30-14:30PM",
+      "informacao":"Apresentação de trabalho",
       "professores":[
         {
-          "nome":"Dra. Vinicia Binacardi",
-          "titulacao":"Professora, AU, AL",
-          "tema":"Neuroinflammation: the role of the innate immune system in hypertension"
+          "nome":"Dra. Kenia Nunes",
+          "titulacao":"Professor, FIT, FL",
+          "tema":"A definir."
         }
       ]
-    }
+    },    
+    {
+      "data":"15/07/2019",
+      "hora":"14:30-15:30PM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Tadeu Andrade",
+          "titulacao":"Professor, UVV, Vila Velha, ES",
+          "tema":"Probioticos e sistema cardiovascular: Do animal ao impacto sobre o ser humano."
+        }
+      ]
+    },
+    {
+      "data":"15/07/2019",
+      "hora":"15:30-15:45AM",
+      "informacao":"Coffeebreak"
+    },
+    {
+      "data":"15/07/2019",
+      "hora":"15:45-16:15PM",
+      "informacao":"Mesa Redonda: Experiências na Pós Graduação - O caminho para uma carreira de sucesso."
+    },
+    {
+      "data":"15/07/2019",
+      "hora":"16:15-17:15PM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Dominik Lenz e Dr. Gustavo Carreiro Pinasco",
+          "titulacao":"Professor, UVV, ES - Professor, Emescam, ES",
+          "tema":"Uso de imiagens computadorizadas para entender aspectos patofisiológicos de doenças cardiovasculares."
+        }
+      ]
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"09:00-10:00AM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dra. Nazaré Bissoli",
+          "titulacao":"Professor, UFES, Vitória, ES",
+          "tema":"Terapia de reposicao hormonal e impacto cardiovascular."
+        }
+      ]
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"10:00-10:30AM",
+      "informacao":"Coffebreak e colocação de posteres"
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"10:30-11:30AM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dra. Adelina Reis",
+          "titulacao":"Professor, UFMG, MG",
+          "tema":"Endocrine control of the cardiovascular system: sex matters."
+        }
+      ]
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"11:30-13:30PM",
+      "informacao":"Pausa para almoço"
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"13:30-14:30PM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Wagner Reis",
+          "titulacao":"Professor, UFSC, Florianopolis, SC",
+          "tema":"Participação dos neurotransmissores gasosos NO e CO na ativação neuroendócrina de ratos com insuficiência cardíaca."
+        }
+      ]
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"14:30-15:30PM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Jose Geraldo Mill",
+          "titulacao":"Professor, UFES, ES",
+          "tema":"Projeto ELSA."
+        }
+      ]
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"15:30-16:00PM",
+      "informacao":"Intervalo"
+    },
+   {
+      "data":"16/07/2019",
+      "hora":"16:00-17:30AM",
+      "informacao":"Apresentação de pôsteres"
+    }                
   ]
 }
