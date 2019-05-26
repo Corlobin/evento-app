@@ -157,6 +157,79 @@
       "data":"16/07/2019",
       "hora":"16:00-17:30AM",
       "informacao":"Apresentação de pôsteres"
-    }                
+    },
+   {
+      "data":"17/07/2019",
+      "hora":"09:00-10:00AM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dra. Fernanda Klein",
+          "titulacao":"Professora, UNICAMP, SP",
+          "tema":"Uso de novas estratégias para ensinar fisiologia."
+        }
+      ]
+    },
+    {
+      "data":"17/07/2019",
+      "hora":"10:00-10:15AM",
+      "informacao":"Coffe Break"
+    },
+   {
+      "data":"17/07/2019",
+      "hora":"10:15-11:15AM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Dennys Esper Corrêa Cintra",
+          "titulacao":"Professor, UNICAMP, SP",
+          "tema":"Cardiometabolic Outcomes Prevention: Cellular Signaling Orchestrated by Nutrients."
+        }
+      ]
+    },
+    {
+      "data":"17/07/2019",
+      "hora":"11:30-13:30PM",
+      "informacao":"Intervalo para almoço"
+    },
+   {
+      "data":"17/07/2019",
+      "hora":"13:30-14:30PM",
+      "informacao":"Apresentação de trabalho",
+      "professores":[
+        {
+          "nome":"Dr. Vinicia Biancardi",
+          "titulacao":"Professor, AU, AL",
+          "tema":"Neuroinflammation: the role of the innate immune system in hypertension."
+        }
+      ]
+    },
+     {
+      "data":"17/07/2019",
+      "hora":"14:30-15:30AM",
+      "informacao":"Apresentações orais"
+    },
+     {
+      "data":"17/07/2019",
+      "hora":"15:30-15:45PM",
+      "informacao":"Coffebreak"
+    },
+   {
+      "data":"17/07/2019",
+      "hora":"15:45-16:30PM",
+      "informacao":"Mesa redonda",
+      "professores":[
+        {
+          "nome":"Girlandia Alexandre Brasil",
+          "titulacao":"Professora, UVV, ES",
+          "tema":"Moderadora da mesa redonda."
+        }
+      ]
+    },
+     {
+      "data":"17/07/2019",
+      "hora":"16:30-17:15PM",
+      "informacao":"Encerramento e premiações"
+    }
   ]
 }
